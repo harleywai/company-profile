@@ -1,0 +1,50 @@
+.container {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 100%;
+  max-width: 1220px;
+}
+/* Section */
+.section {
+  width: 100%;
+  margin: 0;
+  padding: 5rem 0;
+}
+.section-title {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+/* Flex layout */
+.flex-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.flex-column {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.flex-item {
+  flex: 1 0 300px;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.flex-10,
+.flex-20,
+.flex-30 {
+  flex: 50%;
+}
+.flex-40,
+.flex-50,
+.flex-60,
+.flex-70,
+.flex-80,
+.flex-90 {
+  flex: 100%;
+}

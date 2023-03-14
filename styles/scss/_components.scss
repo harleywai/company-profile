@@ -1,0 +1,139 @@
+/* cards */
+.cards {
+  display: flex;
+  gap: 1.4rem;
+  flex-wrap: wrap;
+}
+.card {
+  flex: 1 0 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow-card);
+  transition: all 0.3s ease;
+}
+.card:hover {
+  box-shadow: var(--shadow-card-hover);
+}
+.card p:last-child {
+  margin: 0;
+}
+.card-image img {
+  max-height: 4rem;
+  width: auto;
+}
+/* Buton */
+.button {
+  display: inline-block;
+  background-color: var(--color-dark);
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 8px 1rem;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+.button:hover {
+  background-color: var(--color-primary);
+  color: #ffffff;
+}
+.button-primary {
+  background-color: var(--color-primary);
+}
+.button-secondary {
+  background-color: var(--color-secondary);
+}
+/* Box */
+.box {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 6px;
+}
+/* Pricing table*/
+.price-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.price-card {
+  flex: 1 0 300px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: var(--shadow-card);
+}
+.price-card:nth-child(odd) {
+  background-color: var(--color-light-secondary);
+}
+.price-card:nth-child(even) {
+  background-color: var(--color-light-primary);
+}
+.plan-price {
+  font-size: 1.6rem;
+}
+.plan-details {
+  list-style: none;
+  margin: 2rem 0 1rem 0;
+}
+.plan-details li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--color-secondary);
+}
+.plan-details li:last-child {
+  border-bottom: 0;
+}
+/* Dedicated server plans */
+.server-plan ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* Faq */
+.faq {
+  flex: 100%;
+}
+.faq-title,
+.faq-ans {
+  width: 100%;
+  padding: 10px;
+}
+.faq-title {
+  background-color: var(--color-light-primary);
+  border-radius: 10px 10px 0 0;
+}
+.faq-title h4 {
+  font-size: 1.3rem;
+}
+.faq-ans {
+  background-color: var(--color-light-secondary);
+}
+
+/* social icons */
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+.social-icons li {
+  padding: 0;
+  border: none;
+}
+.social-icons a {
+  background-color: var(--color-light-secondary);
+  color: var(--color-primary);
+  display: grid;
+  place-content: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--color-primary);
+  border-radius: 4px;
+  transition: all 0.3s linear;
+}
+.social-icons a:hover {
+  color: var(--color-secondary);
+  border: 1px solid var(--color-secondary);
+}
