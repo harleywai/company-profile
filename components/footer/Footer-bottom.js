@@ -4,7 +4,7 @@ const FooterBottom = () => {
   return (
     <>
       <div className="footer-copyright">
-        Copyright © {yr} | Hext
+        Copyright © {yr} | OrientWebs - Web Services and Development. All right reserved.
       </div>
       <div className="footer-bottom-links">
         <a href="#">Privacy Policy</a> | <a href="#">Terms and Conditions</a>

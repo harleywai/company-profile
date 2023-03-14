@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Hext | Free Web Hosting Template</title>
+        <title>OrientWebs | Web Services & Development</title>
       </Head>
 			<header className="header header-front">
 				<Header />
