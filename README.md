@@ -1,5 +1,5 @@
 
-# About Hext
+# About OrientWebs Company Profile
 Hext is a clean, light weight, fast and fully responsive free template for web hosting business It is built using Nextjs / React. Icons and images used in the template are designed using Figma.
 Its a complete template for web hosting business.
 
